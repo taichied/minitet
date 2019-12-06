@@ -1,0 +1,22 @@
+# written by horten-persist-file at 2019-12-05T21:13:58-08:00
+loopin:
+  info:
+    grabber:
+      devices:
+        - available: true
+          deviceID: 0
+          deviceName: FaceTime HD Camera
+          hardwareName: ''
+          serialID: ''
+    syphon:
+      servers: []
+    waveform:
+      devices:
+        - deviceID: 0
+          inputChannels: 4
+          name: 'Apple Inc.: Built-in Microphone'
+    window:
+      gl:
+        ES: false
+        VersionMajor: 3
+        VersionMinor: 2

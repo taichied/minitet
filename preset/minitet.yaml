@@ -1,0 +1,10 @@
+pixels/red:
+  format: hex2
+  data: "f00"
+
+buffer/paint:
+  width: 64
+  height: 3
+
+render/paint:
+  shader: paint

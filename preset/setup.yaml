@@ -2,9 +2,9 @@
 show/buffer: white
 
 window:
-  title: loopin-base
-  width: 1280
-  height: 720
+  title: minitet
+  width: 320
+  height: 240
   fullscreen: false
 
 # Here we define white, which comes in handy.
