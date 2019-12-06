@@ -1,0 +1,13 @@
+{
+  "name": "minitet",
+  "version": "0.1.0",
+  "description": "Tetra Vorpal",
+  "main": "index.js",
+  "repository": "https://github.com/taichied/minitet",
+  "author": "Ed Cooper <taichied@gmail.com>",
+  "license": "unlicensed",
+  "private": true,
+  "dependencies": {
+    "loopin-base": "^0.10.3"
+  }
+}
