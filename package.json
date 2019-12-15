@@ -9,5 +9,8 @@
   "private": true,
   "dependencies": {
     "loopin-base": "^0.10.3"
+  },
+  "scripts": {
+    "start": "node index.js"
   }
 }

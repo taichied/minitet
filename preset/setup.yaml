@@ -1,10 +1,10 @@
 # Remove the next line once you have a show/buffer control
-show/buffer: white
+show/buffer: paint
 
 window:
   title: minitet
-  width: 320
-  height: 240
+  width: 640
+  height: 200
   fullscreen: false
 
 # Here we define white, which comes in handy.
