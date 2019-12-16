@@ -2,7 +2,10 @@
 #include "ofxLoopin/frag.glsl"
 #include "ofxLoopin/src.glsl"
 #include "ofxLoopin/clock.glsl"
-
+// x length along a strip/tube number of lights, 0 to 15
+// y  side of strip, 0 or 1
+// z  tube number in series,   0 - 1st tube, 1 - 2nd tube
+// w  which of the three paths of the tetra  0, 1, 2 
 ivec4 mtCoord() {
   ivec4 coord = ivec4(0);
   coord.x = int(gl_FragCoord.x);
