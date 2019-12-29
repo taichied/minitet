@@ -2,7 +2,7 @@
 show/buffer: paint
 
 window:
-  title: minitet
+  title: minitet1
   width: 640
   height: 200
   fullscreen: false

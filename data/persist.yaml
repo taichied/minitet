@@ -1,4 +1,4 @@
-# written by horten-persist-file at 2019-12-14T20:30:58-08:00
+# written by horten-persist-file at 2019-12-28T20:00:00-08:00
 loopin:
   info:
     grabber:
@@ -22,4 +22,8 @@ loopin:
         VersionMinor: 2
   shader:
     paint:
-      stderr: "[ error ] ofShader: setupShaderFromSource(): GL_FRAGMENT_SHADER shader failed to compile\n[ error ] ofShader: GL_FRAGMENT_SHADER shader reports:\nERROR: 0:80: Regular non-array variable 'wave2' may not be redeclared\n[ error ] ofShader: GL_FRAGMENT_SHADER, offending line 80 :\n\t   78\t  }\n\t   79\t\n\t   80\t  float wave2 = cos( clockTime + coord.x );\n\t   81\t\n\t   82\t\n[ error ] ofShader: checkProgramLinkStatus(): program failed to link\n[ error ] ofShader: ofShader: program reports:\nERROR: One or more attached shaders not successfully compiled\n\0\n"
+      stderr: "[ error ] ofShader: setupShaderFromSource(): GL_FRAGMENT_SHADER shader failed to compile\n[ error ] ofShader: GL_FRAGMENT_SHADER shader reports:\nERROR: 0:364: 'float' : syntax error: syntax error\n[ error ] ofShader: GL_FRAGMENT_SHADER, offending line 364 :\n\t  362\t// clamp - constrains range from  zero to one\n\t  363\t// pow - power, raising exponent, large param shallow curve\n\t  364\t  float wave5 =  0.0;\n\t  365\t  wave5 += abs( 8 - coord.x ) / 8.0;\n\t  366\t  wave5 += snoise( nc2 ) * 0.8;\n[ error ] ofShader: checkProgramLinkStatus(): program failed to link\n[ error ] ofShader: ofShader: program reports:\nERROR: One or more attached shaders not successfully compiled\n\0\n"
+  render:
+    paint:
+      float:
+        nc2speed: 2.174
